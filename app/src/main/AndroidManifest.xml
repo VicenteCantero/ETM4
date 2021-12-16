@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ETM4">
         <activity
-            android:name=".PrincipalActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".ConfirmarCompraActivity"
             android:exported="true" />
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ETM4.NoActionBar" />
         <activity
             android:name=".LoginAdminActivity"
             android:exported="true" />

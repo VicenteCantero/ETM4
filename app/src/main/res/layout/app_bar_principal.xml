@@ -14,7 +14,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#FF9800"
-        android:popupTheme="Popup"/>
+        android:background="#FF9800"/>
+        <!--android:popupTheme="Popup"/>-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

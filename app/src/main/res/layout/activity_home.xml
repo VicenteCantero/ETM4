@@ -19,6 +19,17 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/botonEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/botones1"
+        android:text="Entrar"
+        android:textColor="@color/black"
+        android:layout_above="@id/botonUsuario"/>
+
+    <Button
         android:id="@+id/botonUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

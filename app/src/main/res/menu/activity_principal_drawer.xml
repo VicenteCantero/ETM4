@@ -12,6 +12,10 @@
             android:icon="@drawable/categorias"
             android:title="Categorias"/>
 
+        <item android:id="@+id/nav_inventario"
+            android:icon="@drawable/listas"
+            android:title="Inventario"/>
+
         <item android:id="@+id/nav_buscar"
             android:icon="@drawable/buscar"
             android:title="Buscar"/>
