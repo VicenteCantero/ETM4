@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESIÓN"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FF9800"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagen1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/texto1"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/welcome"/>
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagen1"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su número de teléfono"
+        android:background="@drawable/textos"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagen1"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese el código recibido"
+        android:background="@drawable/textos"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/enviarNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numero"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botones1"
+        android:text="ENVIAR CÓDIGO"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/enviarCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codigo"
+        android:layout_marginTop="20dp"
+        android:text="CONFIRMAR"
+        android:background="@drawable/botones1"
+        android:textSize="16dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBIÉN PUEDES INICIAR CON"
+        android:layout_above="@id/facebook"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="#FF9800"/>
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="FACEBOOK"
+        android:background="@drawable/botones2"
+        android:textSize="16dp"
+        android:layout_above="@id/google"
+        />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="GOOGLE"
+        android:background="@drawable/botones2"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
