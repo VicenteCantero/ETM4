@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupAdminActivity">
+
+    <TextView
+        android:id="@+id/aencabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete sus datos"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:background="#FF9800"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/asetup_imagen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/welcome"
+        android:layout_below="@id/aencabezado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="3dp"/>
+
+    <EditText
+        android:id="@+id/asetup_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_imagen"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Ingrese su nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/asetup_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_nombre"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Ingrese su dirección"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/asetup_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_direccion"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Ingrese su teléfono"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/asetup_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_telefono"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Ingrese su ciudad"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/asetup_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_ciudad"
+        android:background="@drawable/botones1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="continuar"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

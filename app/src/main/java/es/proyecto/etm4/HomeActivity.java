@@ -40,7 +40,7 @@ public class HomeActivity extends AppCompatActivity {
         botonEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent (HomeActivity.this, PrincipalActivity.class);
+                Intent intent= new Intent (HomeActivity.this, SetupAdminActivity.class);
                 startActivity(intent);
             }
         });

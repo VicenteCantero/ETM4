@@ -6,6 +6,7 @@
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/drawable/botones1.xml" value="0.2703125" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/drawable/botones2.xml" value="0.2703125" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/drawable/textos.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_admin.xml" value="0.19927536231884058" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_carrito.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_confirmar_compra.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_home.xml" value="0.16893115942028986" />
@@ -13,12 +14,19 @@
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_login_admin.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_principal.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_setup.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/activity_setup_admin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/app_bar_principal.xml" value="0.23324275362318841" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/app_layout_principal.xml" value="0.21516754850088182" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/contenido_principal.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/fragment_cuatro.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/fragment_dos.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/fragment_tres.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/fragment_uno.xml" value="0.19972826086956522" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/nav_header_principal.xml" value="0.23324275362318841" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/layout/productos_item_layout.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/menu/activity_principal_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/menu/menu_botton.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vintc/AndroidStudioProjects/ETM4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
       </map>
     </option>
